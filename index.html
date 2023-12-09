@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title-text">QR Code Generator</h1>
+      <div class="card">
+        <div class="card-body qr-image">
+          <img class="qr-img" src="./images/qr-code-bg.gif" alt="" />
+        </div>
+        <div class="card-body qr-btns">
+          <input class="qr-input" type="text" placeholder="Enter your text here" />
+          <div class="my-3">
+            <button class="bn632-hover bn24" id="generate" type="button" class="btn btn-success">
+              Generate
+            </button>
+            <button class="bn632-hover bn23" id="download" type="button" class="btn btn-warning">
+              Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
